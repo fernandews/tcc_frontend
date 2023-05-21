@@ -1,11 +1,12 @@
 import React from "react";
-import Login from './pages/login';
-import { NativeBaseProvider, Text, Box } from "native-base";
+import Register from './pages/register';
+import { NativeBaseProvider } from "native-base";
 
 export default function App() {
   return (
     <NativeBaseProvider>
-      <Login />
+      <Register />
+      teste
     </NativeBaseProvider>
   );
 }
